@@ -1,6 +1,6 @@
 package com.lulf.sjms;
 
-import com.lulf.sjmsdemo.MyDaiLi;
+import com.proxy.JDK.MyDaiLi;
 
 public class Main {
 	public static void main(String[] args) throws Throwable {

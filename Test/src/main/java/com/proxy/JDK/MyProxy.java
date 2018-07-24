@@ -1,4 +1,4 @@
-package com.lulf.sjmsdemo;
+package com.proxy.JDK;
 
 import java.io.File;
 import java.io.FileWriter;
