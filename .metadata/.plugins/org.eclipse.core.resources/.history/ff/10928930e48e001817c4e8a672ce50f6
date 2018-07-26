@@ -1,0 +1,8 @@
+package com.leetcode.test;
+
+public class test38 {
+
+public String countAndSay(int n) {
+        
+    }
+}

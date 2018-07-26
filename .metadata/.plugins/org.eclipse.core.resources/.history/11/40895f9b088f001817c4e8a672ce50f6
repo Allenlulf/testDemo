@@ -1,0 +1,12 @@
+package com.proxy.cglib;
+
+public class TestCglib {
+	public static void main(String[] args) {
+		try {
+			Object obj=new ZhongJie().getInstance("");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+}

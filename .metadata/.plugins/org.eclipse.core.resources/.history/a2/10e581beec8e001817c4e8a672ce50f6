@@ -1,0 +1,8 @@
+package com.leetcode.test;
+
+public class test58 {
+
+	public int lengthOfLastWord(String s) {
+
+	}
+}

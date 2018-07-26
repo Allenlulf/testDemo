@@ -1,0 +1,18 @@
+package com.proxy.cglib;
+
+import java.lang.reflect.Method;
+
+import org.springframework.cglib.proxy.MethodInterceptor;
+import org.springframework.cglib.proxy.MethodProxy;
+
+public class ZhongJie implements MethodInterceptor{
+
+	//同样是做了一件字节码重这样一件事
+	// 对于使用api的用户而言是无感知的
+	@Override
+	public Object intercept(Object arg0, Method arg1, Object[] arg2, MethodProxy arg3) throws Throwable {
+		
+		return null;
+	}
+
+}

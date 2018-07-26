@@ -1,0 +1,13 @@
+package com.factory.test;
+
+public class SimpleFactory {
+	
+	//实现了统一管理，专业化管理
+	//如果没有工厂模式，小作坊，没有执行标准化
+	public Car getCar(String name){
+		if("Bmw".equals(name)){
+			return new Bmw();
+		}
+		return null;
+	}
+}

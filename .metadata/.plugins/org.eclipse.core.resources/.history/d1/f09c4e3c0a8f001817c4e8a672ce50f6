@@ -1,0 +1,15 @@
+package com.proxy.cglib;
+
+public class TestCglib {
+	public static void main(String[] args) {
+		
+		//AOP 解耦(团队开发需要解耦)
+		try {
+			Lulf obj=(Lulf)new ZhongJie().getInstance(new Lulf());
+			obj.findHouse();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+}

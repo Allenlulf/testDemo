@@ -1,0 +1,20 @@
+package com.leetcode.test;
+
+public class test53 {
+	public static void main(String[] args) {
+		
+	}
+	
+	
+	public int maxSubArray(int[] nums) {
+		int [] newnum=new int[];
+		//首先把当前数组所有子数组的值获取到一个int类型的数组
+		for(int i=0;i<nums.length;i++){
+			for(int j=i;j<nums.length;j++){
+				int num=
+				
+			}
+		}
+
+	}
+}

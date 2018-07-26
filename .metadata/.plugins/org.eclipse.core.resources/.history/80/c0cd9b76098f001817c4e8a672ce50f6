@@ -1,0 +1,30 @@
+package com.proxy.cglib;
+
+import java.lang.reflect.Method;
+
+import org.springframework.cglib.proxy.Enhancer;
+import org.springframework.cglib.proxy.MethodInterceptor;
+import org.springframework.cglib.proxy.MethodProxy;
+
+public class ZhongJie implements MethodInterceptor {
+
+	// 获取被代理人的对象
+	public Object getInstance(Object obj) throws Exception {
+		// 通过反射机制给他实例化
+		Enhancer enhancer= new Enhancer();
+		// 把父类设置为某类
+		enhancer.setSuperclass(obj.getClass());
+		enhancer.setCallback(this);
+		return enhancer.create();
+	}
+
+	// 同样是做了一件字节码重这样一件事
+	// 对于使用api的用户而言是无感知的
+	@Override
+	public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
+		System.out.println("我是中介 CQ");
+		proxy.invoke(arg0, arg1);
+		return null;
+	}
+
+}

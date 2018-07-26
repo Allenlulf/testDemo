@@ -1,0 +1,9 @@
+package com.factory.test;
+
+public class SimpleFactory {
+	
+	public Car getCar(String name){
+		
+	}
+
+}

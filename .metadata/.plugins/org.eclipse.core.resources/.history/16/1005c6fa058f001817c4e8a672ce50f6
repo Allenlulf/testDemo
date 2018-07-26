@@ -1,0 +1,7 @@
+package com.proxy.cglib;
+
+import org.springframework.cglib.proxy.MethodInterceptor;
+
+public class ZhongJie implements MethodInterceptor{
+
+}

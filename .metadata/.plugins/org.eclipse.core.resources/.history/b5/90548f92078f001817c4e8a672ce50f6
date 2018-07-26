@@ -1,0 +1,11 @@
+package com.proxy.cglib;
+
+import com.proxy.JDK.MyDaiLi;
+import com.proxy.JDK.MyProxy;
+
+public class TestCglib {
+	public static void main(String[] args) {
+		new MyDaiLi().getInstance("");
+
+	}
+}

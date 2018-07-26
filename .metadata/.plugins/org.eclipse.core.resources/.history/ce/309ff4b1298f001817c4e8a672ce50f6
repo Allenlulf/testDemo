@@ -1,0 +1,5 @@
+package com.factory.test;
+
+public class TestSimpleFactory {
+
+}

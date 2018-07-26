@@ -1,0 +1,22 @@
+package com.leetcode.test;
+
+public class test58 {
+	public static void main(String[] args) {
+		
+	}
+
+	public int lengthOfLastWord(String s) {
+		String news=s.replaceAll(" ", ";");
+		String [] ss=news.split(";");
+		if(ss.length==0){
+			
+		}
+		int num=ss[0].length();
+		for (String string : ss) {
+			if(num<=string.length()){
+				num=string.length();
+			}
+		}
+		return num;
+	}
+}

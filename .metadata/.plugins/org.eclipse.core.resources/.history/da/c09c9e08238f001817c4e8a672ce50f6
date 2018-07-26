@@ -1,0 +1,10 @@
+package com.factory.test;
+
+/**
+ * 汽车产品接口 需要满足一定的标准
+ * @author lulf
+ *
+ */
+public interface Car {
+
+}

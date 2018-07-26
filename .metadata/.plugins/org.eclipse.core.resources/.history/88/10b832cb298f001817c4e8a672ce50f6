@@ -1,0 +1,8 @@
+package com.factory.test;
+
+public class TestSimpleFactory {
+	public static void main(String[] args) {
+   Car car=new SimpleFactory().getCar("");
+   System.out.println(car.getName());
+	}
+}

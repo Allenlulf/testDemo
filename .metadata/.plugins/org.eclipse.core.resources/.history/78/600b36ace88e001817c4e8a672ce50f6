@@ -1,0 +1,32 @@
+package com.leetcode.test;
+
+import java.util.Arrays;
+
+public class test53 {
+	public static void main(String[] args) {
+		System.out.println(maxSubArray());
+		
+	}
+	
+	
+	public int maxSubArray(int[] nums) {
+		int newindex=0;
+		int size=0;
+		for(int index=1;index<=nums.length;index++){
+			size+=index;
+		}
+		int [] newnum=new int[size];
+		//首先把当前数组所有子数组的值获取到一个int类型的数组
+	
+		for(int i=0;i<nums.length;i++){
+			int num=0;
+			for(int j=i;j<nums.length;j++){
+				num+=nums[j];	
+			}
+			newnum[newindex]=num;
+			newindex++;
+		}
+		Arrays.sort(newnum);
+		return newnum[size-1];
+	}
+}

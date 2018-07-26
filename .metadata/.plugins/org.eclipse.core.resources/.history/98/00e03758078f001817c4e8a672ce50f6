@@ -1,0 +1,7 @@
+package com.proxy.cglib;
+
+public class TestCglib {
+	public static void main(String[] args) {
+
+	}
+}
