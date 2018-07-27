@@ -1,6 +1,6 @@
 package com.factory.test;
 
-class Audi implements Car {
+public class Audi implements Car {
 
 	@Override
 	public String getName() {

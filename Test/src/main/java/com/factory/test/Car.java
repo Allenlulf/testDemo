@@ -6,9 +6,6 @@ package com.factory.test;
  *
  */
 public interface Car {
-	
 	//规定汽车的品牌
 	String getName();
-	
-
 }
