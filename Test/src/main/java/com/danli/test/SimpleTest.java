@@ -19,7 +19,4 @@ public class SimpleTest {
 	public static final SimpleTest getInstance(){
 		return LazyHolder.INSTANCE;
 	}
-	
-	
-
 }

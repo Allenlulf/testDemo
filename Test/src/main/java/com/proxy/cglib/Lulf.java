@@ -1,7 +1,0 @@
-package com.proxy.cglib;
-
-public class Lulf {
-	public void findHouse(){
-		System.out.println("需要海景房。。。");
-	}
-}
